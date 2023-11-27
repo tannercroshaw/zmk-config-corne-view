@@ -36,10 +36,10 @@
 
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-//    | BTCLR | F1 | F2 | F3 | F4 | VOLUP |    | EP_ON | EP_OFF | INS | MYCOMP | PSCRN | DEL  |
-// | CTRL TAB | F5 | F6 | F7 | F8 | VOLDN |    | LFT  |  DWN  |  UP  | RIGHT | BCSP| SHFT ' |
-//    | ALT - | F9 |F10 |F11 |F12 | MUTE  |    | HOME | PGUP  | PGDN |  END  | BACK | ALT = |
-//               | GUI [ |    | SHIFT ENT |    | SPC |     | CTRL ] |
+//    | BTCLR | F1 | F2 | F3 | F4 | VOLUP |      | EP_ON | EP_OFF | INS | MYCOMP | PSCRN | DEL  |
+// | CTRL TAB | F5 | F6 | F7 | F8 | VOLDN |      | LFT  |  DWN  |  UP  | RIGHT | BCSP| SHFT ' |
+//    | ALT - | F9 |F10 |F11 |F12 | MUTE  |      | HOME | PGUP  | PGDN |  END  | BACK | ALT = |
+//             | GUI [ | L2 ( | SHIFT ENT |      | SPC | L2 ) | CTRL ] |
                         bindings = <
    &bt BT_CLR  &kp F1  &kp F2   &kp F3   &kp F4   &kp C_VOL_UP       &ext_power EP_ON &ext_power EP_OFF &kp INS  &kp C_AL_MY_COMPUTER  &kp PSCRN  &kp DEL
    &trans      &kp F5  &kp F6   &kp F7   &kp F8   &kp C_VOL_DN       &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp BSPC &trans
@@ -52,10 +52,10 @@
 //LAYER 2
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-//        |  ` |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP   |
-//  | CTRL TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | SHFT ' |
-//     | ALT - |  6  |  7  |  8  |  9  |  0  |   |  -  |  =  |  [  |  ]  |  \  | ALT = |
-//                       | GUI [ |     | SPC |   | ENT |     | CTRL ] |
+//        |  ` |  !  |  @  |  #  |  $  |  %  |     |  ^  |  &  |  *  |  (  |  )  | BKSP   |
+//  | CTRL TAB |  1  |  2  |  3  |  4  |  5  |     |  6  |  7  |  8  |  9  |  0  | SHFT ' |
+//     | ALT - |  6  |  7  |  8  |  9  |  0  |     |  -  |  =  |  [  |  ]  |  \  | ALT = |
+//                      | GUI [ | L2 ( | SPC |     | ENT | L2 ) | CTRL ] |
                         bindings = <
    &kp GRAVE  &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
    &trans &kp N1  &kp N2   &kp N3  &kp N4  &kp N5       &kp N6 &kp N7  &kp N8  &kp N9  &kp N0 &trans
