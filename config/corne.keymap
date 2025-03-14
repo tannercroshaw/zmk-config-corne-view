@@ -39,7 +39,7 @@
 
             bindings = <
 &bt BT_CLR  &kp F1  &kp F2   &kp F3   &kp F4   &kp C_VOL_UP    &kp RA(TAB)  &kp RC(TAB)  &kp INS    &kp C_AL_MY_COMPUTER  &kp PSCRN        &kp DEL
-&trans      &kp F5  &kp F6   &kp F7   &kp F8   &kp C_VOL_DN    &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT             &kp BSPC         &trans
+&trans      &kp F5  &kp F6   &kp F7   &kp F8   &kp C_VOL_DN    &kp LEFT     &kp DOWN     &kp UP     &kp RIGHT             &kp BSPC         &mt LEFT_WIN RET
 &trans      &kp F9  &kp F10  &kp F11  &kp F12  &kp C_MUTE      &kp HOME     &kp PG_DN    &kp PG_UP  &kp END               &mt RC(C) RC(V)  &trans
                              &trans   &trans   &trans          &trans       &trans       &trans
             >;
