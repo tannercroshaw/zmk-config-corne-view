@@ -24,7 +24,7 @@
 &mt CAPS ESC      &kp Q  &kp W  &kp E           &kp R       &kp T              &kp Y        &kp U       &kp I           &kp O    &kp P     &kp BSPC
 &mt LEFT_WIN TAB  &kp A  &kp S  &kp D           &kp F       &kp G              &kp H        &kp J       &kp K           &kp L    &kp SEMI  &mt RSHFT SQT
 &mt LALT MINUS    &kp Z  &kp X  &kp C           &kp V       &kp B              &kp N        &kp M       &kp COMMA       &kp DOT  &kp FSLH  &mt RALT EQUAL
-                                &mt LCTRL LBKT  &lt 2 LPAR  &mt LSHFT SPACE    &lt 1 ENTER  &lt 2 RPAR  &mt RCTRL RBKT
+                                &mt LCTRL LBKT  &lt 2 LPAR  &mt LSHFT SPACE    &lt 1 ENTER  &lt 3 RPAR  &mt RCTRL RBKT
             >;
         };
 
